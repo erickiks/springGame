@@ -1,0 +1,90 @@
+
+.z{
+    border: outset 10px;
+    border-color: rgb(14, 142, 14);
+}
+
+.p{
+    color: rgb(72, 236, 54);
+    font-family: 'Metalic Avacodo', sans-serif;  
+    font-size: 1cm;
+}
+
+    .w{
+      appearance: button;
+      background-color: rgb(21, 55, 27);
+      background-image: none;
+      border: 1px solid rgb(9, 255, 148);
+      border-radius: 4px;
+      box-shadow: rgb(0, 0, 0) 4px 4px 0 0,rgb(32, 179, 42) 4px 4px 0 1px;
+      box-sizing: border-box;
+      color: rgb(215, 246, 203);
+      cursor: pointer;
+      display: inline-block;
+      font-family: Franklin Gothic Medium;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin: 0 5px 10px 0;
+      overflow: visible;
+      padding: 12px 40px;
+      text-align: center;
+      text-transform: none;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+  
+    .w:active {
+      box-shadow: rgba(27, 151, 66, 0.125) 0 3px 5px inset;
+    }
+    
+    .w:not([disabled]):active {
+      box-shadow: rgb(0, 0, 0) 2px 2px 0 0, rgb(0, 0, 0) 2px 2px 0 1px;
+      transform: translate(2px, 2px);
+    }
+    
+    @media (min-width: 768px) {
+      .w {
+        padding: 12px 50px;
+      }
+    }
+
+  h1{
+    color: rgb(52, 248, 84);
+    font-family: 'Space Games', sans-serif;         
+    font-size: 1.5cm;
+    align-items: center;
+  }
+
+
+h2{
+  color: rgb(1, 166, 65);
+  font-family: 'Trick Or Treats', sans-serif;
+  font-size: 1.4cm;
+}
+
+
+body{
+    background-attachment: fixed;
+      color: rgb(25, 0, 254);
+      font-family: ITC Machine;
+      font-size: 45px;
+      margin-left: 2cm;
+      margin-right: 2cm;
+    }
+
+.column {
+    column-count: 2;
+  column-rule-style:groove;
+  column-rule-width: 4px;
+  column-rule-color: rgb(0, 255, 55);
+}
+
+.container {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
